@@ -66,42 +66,42 @@ function App() {
           className="logo-btn"
           onMouseEnter={() => setActiveSection('education')}
         >
-          <img src="images/education.png" className="logo" alt="Education" />
+          <img src="/images/education.png" className="logo" alt="Education" />
         </button>
 
         <button
           className="logo-btn"
           onMouseEnter={() => setActiveSection('academics')}
         >
-          <img src="images/acad.png" className="logo" alt="Academics" />
+          <img src="/images/acad.png" className="logo" alt="Academics" />
         </button>
 
         <button
           className="logo-btn"
           onMouseEnter={() => setActiveSection('tech')}
         >
-          <img src="images/tech.png" className="logo" alt="Tech" />
+          <img src="/images/tech.png" className="logo" alt="Tech" />
         </button>
 
         <button
           className="logo-btn"
           onMouseEnter={() => setActiveSection('club')}
         >
-          <img src="images/club.png" className="logo" alt="Clubs" />
+          <img src="/images/club.png" className="logo" alt="Clubs" />
         </button>
 
         <button
           className="logo-btn"
           onMouseEnter={() => setActiveSection('interest')}
         >
-          <img src="images/interest.png" className="logo" alt="Interests" />
+          <img src="/images/interest.png" className="logo" alt="Interests" />
         </button>
 
         <button
           className="logo-btn"
           onMouseEnter={() => setActiveSection('contact')}
         >
-          <img src="images/contact-us.png" className="logo" alt="Contact" />
+          <img src="/images/contact-us.png" className="logo" alt="Contact" />
         </button>
       </div>
 
