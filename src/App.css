@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.image-buttons {
+  display: flex;
+  gap: 12px; /* adjust spacing as you like */
+  justify-content: center;
+}
+
+.logo-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.logo {
+  width: 100px;  /* or whatever you used before */
+  height: auto;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.logo-btn:hover .logo {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.content-sections {
+  margin-top: 20px;
+  min-height: 60px; /* keeps layout stable when nothing is visible */
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(6px);
+  transition: all 0.25s ease;
+  margin-bottom: 0.75rem;
+}
+
+.section.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.section.hidden {
+  display: none;
+}
