@@ -2,12 +2,15 @@
   "name": "apping101",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://balanithinmsthebest-arch.github.io/apping101",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "counterapi": "^2.1.2",
